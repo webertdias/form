@@ -1,0 +1,47 @@
+body{
+    background-color:rgb(172, 218, 238);
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+}
+
+.container{
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+    border: 10px solid whitesmoke;
+    border-radius: 10px;
+    width: 800px;
+    height: 900px;
+    background-color: whitesmoke
+}
+
+h2{
+    font: size 20px;;
+    font-weight: lighter;
+}
+
+.name, .email, .scale, .forhappen, .happen, .emotions, .experiences{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.happen{
+    display: flex;
+    flex-direction:column;
+}
+
+.option {
+    display: flex;
+    flex-direction: column row;
+
+}
+
+input{
+    margin: 0px 10px;    
+}

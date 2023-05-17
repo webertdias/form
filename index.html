@@ -49,39 +49,58 @@
 
             <div class="happen">
                 <p for="">At what time of day did it happen?</p>
-                <div class="option">
-                    <input type="radio">
-                    <label for="morning">Morning</label>
-                    <input type="radio">
-                    <label for="morning">Afternoon</label>
-                    <input type="radio">
-                    <label for="morning">Night</label>
+                <fieldset class="time">
+                    <div id="morning">
+                        <input type="radio">
+                        <label for="morning">Morning</label>
+                    </div>
+                    <div id="afternoon">
+                        <input type="radio">
+                        <label for="afternoon">Afternoon</label>
+                    </div>
+                    <div id="night">
+                        <input type="radio">
+                        <label for="night">Night</label>
+                    </div>
+                </fieldset>
+
+
+            </div>
+
+            <div id="emotion">
+                <label for="number">What emotions did you experience?<br>
+                (Select all that apply)</label>
+                <div class="emotions">
+                    <div>
+                        <input type="checkbox" class="form-control" id="number">
+                        <label for="">Excited</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" class="form-control" id="number">
+                        <label for="">Humbled</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" class="form-control" id="number">
+                        <label for="">Elated</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" class="form-control" id="number">
+                        <label for="">Loved</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" class="form-control" id="number">
+                    <label for="">Enthusiastic</label>
+                    </div>                                 
                 </div>
 
             </div>
 
-            <div class="emotions">
-                <label for="number">What emotions did you experience?
-                    (Select all that apply)</label>
-
-                <input type="checkbox" class="form-control" id="number">
-                <label for="">Excited</label>
-                <input type="checkbox" class="form-control" id="number">
-                <label for="">Humbled</label>
-                <input type="checkbox" class="form-control" id="number">
-                <label for="">Elated</label>
-                <input type="checkbox" class="form-control" id="number">
-                <label for="">Loved</label>
-                <input type="checkbox" class="form-control" id="number">
-                <label for="">Enthusiastic</label>
-            </div>
-
             <div class="experience">
-                <label for="textarea">Please describe your positive experience.</label>
-                <input type="text" name="textarea" id="" placeholder="Enter your experience here...">
+                <label>Please describe your positive experience.</label>
+                <input id="textarea" placeholder="Enter your experience here...">
             </div>
             <div>
-                <input type="submit" value="submit">
+                <button type="submit" minlength="20" maxlength="50" rows="10" >Submit</button>
             </div>
 
 
